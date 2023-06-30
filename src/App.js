@@ -7,7 +7,7 @@ function App() {
       <header >
         <Header/>
         <p>
-          Oi Will
+          Oi Will, vou te falar que o Bruno é legal
         </p>
        
       </header>
