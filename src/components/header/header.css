@@ -1,0 +1,21 @@
+.general {
+
+}
+
+.header {
+    color: #121010;
+    color: #121010;
+    background-color: #fcfdfd;    
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    font-size: x-large;
+    font-family: emoji;
+    font-variant-caps: small-caps;
+    padding: 2%;
+}
+
+.options {
+    cursor: pointer;
+
+}
+
