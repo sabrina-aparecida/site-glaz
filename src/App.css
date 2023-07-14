@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+.general {
+  display: flex;
+  
+}
+
+.lateralEsquerda {
+  flex: 1; /* Faz com que ambos os painéis ocupem espaços iguais */
+  height: 100vh; /* Define a altura total da janela */
+}
+
+.lateralDireita {
+  flex: 1; /* Faz com que ambos os painéis ocupem espaços iguais */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +50,5 @@
     transform: rotate(360deg);
   }
 }
+
+

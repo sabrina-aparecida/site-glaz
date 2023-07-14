@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/header';
+import Header from './components/header/header';
 import Lateral from './components/lateral/lateral';
 import Body from './components/body/body';
 
@@ -12,15 +12,12 @@ function App() {
           <Lateral/>
         </div>
         <div className='lateralDireita'>
-          <Header/>
-          <Body/>
+            <div><Header/></div>
+            
+            <div><Body/></div>
+                   
         </div>
-
-        <p>
-          Oi Will, vou te falar que o Bruno é legal!!
-        </p>
-
-      </div>
+       </div>
     </div>
 
   );
