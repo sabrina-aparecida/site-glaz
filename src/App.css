@@ -39,7 +39,11 @@
 }
 
 .lateralDireita {
-  flex: 1; /* Faz com que ambos os painéis ocupem espaços iguais */
+  flex: 6; /* Faz com que ambos os painéis ocupem espaços iguais */
+  background-image: url("components/Images/mainImg.jpeg");
+  background-size: cover; /* Redimensiona a imagem para cobrir todo o div */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem no div */
 }
 
 @keyframes App-logo-spin {

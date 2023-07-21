@@ -2,7 +2,7 @@
 .header {
     color: #121010;
     color: #121010;
-    background-color: #fcfdfd;    
+    /*background-color: #fcfdfd;*/    
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     font-size: x-large;
